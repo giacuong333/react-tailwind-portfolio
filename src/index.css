@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.primary-color {
+  color: #766dff;
+}
+
+.primary-color-hover:hover {
+  color: #766dff;
+}
+
+.primary-background-color {
+  background: linear-gradient(-90deg, #88f3ff 0%, #766dff 100%);
+}
+
+.primary-button {
+  background-image: linear-gradient(to right, #766dff 0%, #86e8ff 48%, #766dff 100%);
+  background-size: 200% auto;
+  transition: all ease-in-out 0.3s;
+}
+
+.primary-button:hover {
+  background-position: right center;
+}
+
+.primary-background {
+  background: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.primary-background:hover {
+  background: linear-gradient(0deg, #88f3ff 0%, #766dff 100%);
+}
+
+.project:hover > .img-layer {
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+.email-input {
+  border: 1px solid #1e233b;
 }
