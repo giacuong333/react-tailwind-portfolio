@@ -5,7 +5,7 @@ import { FiUsers } from "react-icons/fi";
 
 function About() {
   return (
-    <section className="lg:mt-[450px] md:mt-[400px] mt-[200px] mb-[100px]">
+    <section className="lg:mt-[400px] md:mt-[800px] mt-[480px] mb-[100px]">
       <div className="grid md:grid-cols-2 md:gap-x-10 w-full max-w-[1240px] mx-auto px-8">
         <div>
           <h1 className="font-bold text-4xl text-gray-900">ABOUT MYSELF</h1>
