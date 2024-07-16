@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-tailwind-portfolio/static/css/main.d0d6fbcb.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.0308ba4c.js",
+    "static/media/myImage.jpg": "/react-tailwind-portfolio/static/media/myImage.fe7ed7274912a783af22.jpg",
+    "static/media/project-2.jpg": "/react-tailwind-portfolio/static/media/project-2.d0d68a19b4cc46c6a1c2.jpg",
+    "static/media/project-3.jpg": "/react-tailwind-portfolio/static/media/project-3.e0d59fe245ce85b1553d.jpg",
+    "static/media/project-1.jpg": "/react-tailwind-portfolio/static/media/project-1.4022179c17c0858abc9c.jpg",
+    "static/media/project-5.jpg": "/react-tailwind-portfolio/static/media/project-5.073fca55f13436bfb7cc.jpg",
+    "static/media/project-6.jpg": "/react-tailwind-portfolio/static/media/project-6.be431c0f9da01bd2d247.jpg",
+    "static/media/project-4.jpg": "/react-tailwind-portfolio/static/media/project-4.f783a38b791f1d62e33e.jpg",
+    "index.html": "/react-tailwind-portfolio/index.html",
+    "main.d0d6fbcb.css.map": "/react-tailwind-portfolio/static/css/main.d0d6fbcb.css.map",
+    "main.0308ba4c.js.map": "/react-tailwind-portfolio/static/js/main.0308ba4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0d6fbcb.css",
+    "static/js/main.0308ba4c.js"
+  ]
+}
